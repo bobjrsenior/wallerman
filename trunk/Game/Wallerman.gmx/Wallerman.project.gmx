@@ -16,6 +16,8 @@
     <sprite>sprites\player2down</sprite>
     <sprite>sprites\Wallsprite</sprite>
     <sprite>sprites\Bombsprite</sprite>
+    <sprite>sprites\spr_bomb</sprite>
+    <sprite>sprites\spr_explosion</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,9 +26,11 @@
     <object>objects\player_2</object>
     <object>objects\Wall</object>
     <object>objects\Bomb</object>
+    <object>objects\obj_bomb</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_room</room>
+    <room>rooms\Testing1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
