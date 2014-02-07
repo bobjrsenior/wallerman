@@ -14,12 +14,16 @@
     <sprite>sprites\player2left</sprite>
     <sprite>sprites\player2right</sprite>
     <sprite>sprites\player2down</sprite>
+    <sprite>sprites\Wallsprite</sprite>
+    <sprite>sprites\Bombsprite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Player_1</object>
     <object>objects\player_2</object>
+    <object>objects\Wall</object>
+    <object>objects\Bomb</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test_room</room>
