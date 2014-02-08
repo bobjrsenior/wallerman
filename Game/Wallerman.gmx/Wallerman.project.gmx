@@ -31,8 +31,8 @@
     <object>objects\obj_Driver</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Testing1</room>
     <room>rooms\test_room</room>
+    <room>rooms\Testing1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
