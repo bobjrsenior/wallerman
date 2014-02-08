@@ -27,10 +27,12 @@
     <object>objects\Wall</object>
     <object>objects\Bomb</object>
     <object>objects\obj_bomb</object>
+    <object>objects\obj_explosion</object>
+    <object>objects\obj_Driver</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test_room</room>
     <room>rooms\Testing1</room>
+    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
