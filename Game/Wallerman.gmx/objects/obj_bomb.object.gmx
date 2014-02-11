@@ -76,7 +76,7 @@ countdown = room_speed*4;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>3</string>
           </argument>
         </arguments>
       </action>
