@@ -58,7 +58,13 @@ if(spawn_counter == 0){
     //Reset the spawn timer
     spawn_counter = spawn_rate;
     //Create a bomb (Detailed comments below)
-    instance_create(random_range(1,16) * 32, random_range(1, 10) * 32, obj_bomb);
+    x_spawn = random_range(1,16) * 32;
+    y_spawn = random_range(1, 10) * 32;
+    while(collision_point(x_spawn, y_spawn, obj_solid, false, true) != noone){
+        x_spawn = random_range(1,16) * 32;
+        y_spawn = random_range(1, 10) * 32;
+    }
+    instance_create(x_spawn, y_spawn, obj_bomb);
 }
 
 
