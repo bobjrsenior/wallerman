@@ -33,6 +33,7 @@
     <object>objects\obj_solid</object>
     <object>objects\player</object>
     <object>objects\Timer</object>
+    <object>objects\Life</object>
   </objects>
   <timelines name="timelines"/>
   <rooms name="rooms">
