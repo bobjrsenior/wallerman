@@ -157,17 +157,17 @@
         <exetype>1</exetype>
         <functionname>action_move</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>000010000</string>
+            <string>111101111</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
