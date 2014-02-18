@@ -65,7 +65,7 @@
     <instance objName="AreaWall" x="0" y="288" name="inst_D28DCD8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="AreaWall" x="0" y="320" name="inst_3B2883A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="AreaWall" x="0" y="352" name="inst_63F80179" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="AreaWall" x="0" y="384" name="inst_C427F387" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="AreaWall" x="32" y="0" name="inst_C427F387" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="AreaWall" x="0" y="416" name="inst_FC771F11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="AreaWall" x="608" y="448" name="inst_CC22E7BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="AreaWall" x="576" y="448" name="inst_88238DE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -120,6 +120,8 @@
     <instance objName="AreaWall" x="64" y="0" name="inst_56A03BDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="AreaWall" x="32" y="0" name="inst_79F1F643" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Driver" x="32" y="288" name="inst_4FF03932" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Timer" x="64" y="64" name="inst_9665E531" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="AreaWall" x="0" y="384" name="inst_D3D3C3CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
