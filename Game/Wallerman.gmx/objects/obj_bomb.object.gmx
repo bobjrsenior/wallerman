@@ -120,10 +120,12 @@ else if(countdown == 3 * room_speed){
             <kind>1</kind>
             <string>///Bomb Detonation
 
+/*
 explosion0 = instance_create(x, y, obj_explosion);
 explosion0.strength = 3;
 explosion0.dir = 0;
-instance_destroy();  
+instance_destroy();
+*/
 </string>
           </argument>
         </arguments>
@@ -148,10 +150,12 @@ instance_destroy();
             <kind>1</kind>
             <string>///Bomb Detonation
 
+/*
 explosion0 = instance_create(x, y, obj_explosion);
 explosion0.strength = 3;
 explosion0.dir = 0;
-instance_destroy();  
+instance_destroy();
+*/
 </string>
           </argument>
         </arguments>
@@ -176,10 +180,12 @@ instance_destroy();
             <kind>1</kind>
             <string>///Bomb Detonation
 
+/*
 explosion0 = instance_create(x, y, obj_explosion);
 explosion0.strength = 3;
 explosion0.dir = 0;
-instance_destroy();  
+instance_destroy();
+*/
 </string>
           </argument>
         </arguments>
