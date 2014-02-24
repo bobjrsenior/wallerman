@@ -58,6 +58,8 @@ r_speed = room_speed;
 time = 0;
 counter = r_speed;
 
+randomize();
+
 /*objects = ds_map_create();
 for(x = 1; x &lt; 16 x ++){
     for(y = 1; y &lt; 10; y++){
@@ -116,17 +118,27 @@ if(counter == 0){
             <string>///Spawn Bombs
 spawn_counter --;
 
-if(spawn_counter == 0){
+if(spawn_counter &lt;= 0){
     //Reset the spawn timer
-    spawn_counter = spawn_rate;
+    spawn_counter = irandom_range(.25 * spawn_rate, spawn_rate);
     //Create a bomb (Detailed comments below)
-    x_spawn = random_range(1,16) * 32;
-    y_spawn = random_range(1, 10) * 32;
+    x_spawn = irandom_range(1,16) * 32;
+    y_spawn = irandom_range(1, 10) * 32;
     while(collision_point(x_spawn, y_spawn, obj_solid, false, true) != noone){
-        x_spawn = random_range(1,16) * 32;
-        y_spawn = random_range(1, 10) * 32;
+        x_spawn = irandom_range(1,16) * 32;
+        y_spawn = irandom_range(1, 10) * 32;
     }
     instance_create(x_spawn, y_spawn, obj_bomb);
+    for(e = 1; time / (20 * e) &gt; 1; e ++){
+        //Create a bomb (Detailed comments below)
+        x_spawn2 = irandom_range(1,16) * 32;
+        y_spawn2 = irandom_range(1, 10) * 32;
+        while(collision_point(x_spawn2, y_spawn2, obj_solid, false, true) != noone){
+            x_spawn2 = irandom_range(1,16) * 32;
+            y_spawn2 = irandom_range(1, 10) * 32;
+        }
+        instance_create(x_spawn2, y_spawn2, obj_bomb);
+    }
 }
 
 
