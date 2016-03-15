@@ -1,0 +1,1 @@
+It's like Bomberman, but you build walls to protect yourself from falling bombs or trap the enemy.
